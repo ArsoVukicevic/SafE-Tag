@@ -12,7 +12,7 @@ Arso M. Vukicevic<sup>*,1</sup>, Marko Djapan>1</sup>, Miladin Stefanovic<sup>1<
 <sup>*Corresponding author {arso_kg@yahoo.com; +381643483552; Sestre Janjic 6, 34000 Kragujevac, Serbia}</sup>
 </p>
 
-![](misc/Figure-1.tiff)
+![](misc/Figure-1.jpg)
 
 Nowadays industries have initiative to reduce a number of production injuries and accidents down to zero. This goal could be achieved only through the proactive identification of accident precursors – such as unsafe conditions (UC) and unsafe acts (UA), whose control could prevent occurrence of accidents. At the same time, smartphones (and mobile applications) are taking dominance over PCs, making mobile devices major interface for human interaction with the web. In this term, application of mobile devices in OSH remains to be more exploited and accepted. Taking into account these trends, the present study aims to propose a novel cloud-based mobile framework for the management of UC/UA reports. Compared to previous studies, we considered the recent trends of mobile, cloud and Safety 4.0 in more details – ending up with the solution that is the combo of JavaScript technologies. 
 
