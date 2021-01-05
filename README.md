@@ -4,7 +4,7 @@ This repository is supplement to the study (http://dx.doi.org/10.1016/j.ssci.201
 # SafE-Tag mobile: A novel javascript framework for real-time management of unsafe conditions and unsafe acts in SMEs
 
 <p align="center"> 
-Arso M. Vukicevic<sup>*,1</sup>, Marko Djapan>1</sup>, Miladin Stefanovic<sup>1</sup>,  Ivan Macuzic<sup>1</sup> </br> 
+Arso M. Vukicevic<sup>*,1</sup>, Marko Djapan<sup>1</sup>, Miladin Stefanovic<sup>1</sup>,  Ivan Macuzic<sup>1</sup> </br> 
 </p>
 
 <p align="center"> 
