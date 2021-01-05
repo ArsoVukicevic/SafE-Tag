@@ -29,4 +29,4 @@ Compared to the original study - this implementation is extended with new featur
 
 ![](misc/IMG1%20-%20GUI.jpg)
 
-![](misc/IMG2 - GUI.jpg)
+![](misc/IMG2%20-%20GUI.jpg)
