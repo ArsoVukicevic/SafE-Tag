@@ -27,6 +27,6 @@ Compared to the original study - this implementation is extended with new featur
 
 # GUI look (Serbian)
 
-![](misc/IMG1 - GUI.jpg)
+![](misc/IMG1%20-%20GUI.jpg)
 
 ![](misc/IMG2 - GUI.jpg)
