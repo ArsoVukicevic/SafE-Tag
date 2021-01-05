@@ -1,0 +1,14 @@
+GET http://{{host}}/doLogin?email=testuser25@gmail.com&pass=testuser25
+Cache-Control: no-cache
+Content-Type: application/json
+
+
+> {%
+
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+client.test("Login Response Body", function() {
+  client.assert(response.body.status === 1, "Login error status is -1");
+});
+%}

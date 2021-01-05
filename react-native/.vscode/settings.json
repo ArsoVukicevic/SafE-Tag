@@ -1,0 +1,9 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    // "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false
+}

@@ -1,0 +1,186 @@
+POST http://{{host}}/api/getItemTree
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+POST http://{{host}}/api/getClassificationTree
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}",
+    "typeId": 1
+}
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+POST http://{{host}}/api/getOpenTags
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+POST http://{{host}}/api/getTagsCount
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+
+client.test("Api response body check", function() {
+  client.assert(
+      response.body.data.hasOwnProperty('openTagsCount'),
+      "openTagsCount property missing"
+  );
+  client.assert(
+      response.body.data.hasOwnProperty('taskToDoCount'),
+      "taskToDoCount property missing"
+  );
+  client.assert(
+      response.body.data.hasOwnProperty('taskToDoAsignByMeCount'),
+      "taskToDoAsignByMeCount property missing"
+  );
+});
+%}
+
+###
+POST http://{{host}}/api/getOpenTagDetails
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}",
+    "tagId": 47
+}
+
+> {%
+    client.test("Server status", function() {
+      client.assert(response.status === 200, "Response status is not 200");
+    });
+
+    client.test("Api response status", function() {
+      client.assert(response.body.status === 1,"Response finished with error");
+    });
+%}
+
+###
+POST http://{{host}}/api/getEmployees
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+    client.test("Server status", function() {
+      client.assert(response.status === 200, "Response status is not 200");
+    });
+
+    client.test("Api response status", function() {
+      client.assert(response.body.status === 1,"Response finished with error");
+    });
+%}
+
+###
+POST http://{{host}}/api/getTaskToDo
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+    client.test("Server status", function() {
+      client.assert(response.status === 200, "Response status is not 200");
+    });
+
+    client.test("Api response status", function() {
+      client.assert(response.body.status === 1,"Response finished with error");
+    });
+%}
+
+###
+POST http://{{host}}/api/getAchievements
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+    client.test("Server status", function() {
+      client.assert(response.status === 200, "Response status is not 200");
+    });
+
+    client.test("Api response status", function() {
+      client.assert(response.body.status === 1,"Response finished with error");
+    });
+%}
+
+###
+POST http://{{host}}/api/getAudit
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "token": "{{token}}"
+}
+
+> {%
+    client.test("Server status", function() {
+      client.assert(response.status === 200, "Response status is not 200");
+    });
+
+    client.test("Api response status", function() {
+      client.assert(response.body.status === 1,"Response finished with error");
+    });
+%}

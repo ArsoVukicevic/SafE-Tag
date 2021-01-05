@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "eslint.autoFixOnSave": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+}

@@ -1,0 +1,72 @@
+const { srb } = require("./srb")
+
+class Trans {
+
+    static leng = "srb"
+    static _leng = eval(Trans.leng)
+
+    static LOGIN_EMAIL_LABEL = Trans._leng.LOGIN.EMAIL_LABEL
+    static LOGIN_PASS_LABEL = Trans._leng.LOGIN.PASS_LABEL
+    static LOGIN_BTN = Trans._leng.LOGIN.BTN
+
+    static HOME_TITLE = Trans._leng.HOME.TITLE
+    static HOME_CREATE_TAG = Trans._leng.HOME.CREATE_TAG
+    static HOME_TASK_TO_DO = Trans._leng.HOME.TASK_TO_DO
+    static HOME_ACHIEVEMENTS = Trans._leng.HOME.ACHIEVEMENTS
+    static HOME_AUDIT = Trans._leng.HOME.AUDIT
+    static HOME_OPEN_TAG = Trans._leng.HOME.OPEN_TAG
+
+    static CREATE_TAG_TITLE = Trans._leng.CREATE_TAG.TITLE
+    static CREATE_TAG_LOCATION = Trans._leng.CREATE_TAG.LOCATION
+    static CREATE_TAG_CLASSIFICATION = Trans._leng.CREATE_TAG.CLASSIFICATION
+    static CREATE_TAG_RISK = Trans._leng.CREATE_TAG.RISK
+    static CREATE_TAG_DESC_PHOTO = Trans._leng.CREATE_TAG.DESC_PHOTO
+    static CREATE_TAG_ASSIGN_TO_ME = Trans._leng.CREATE_TAG.ASSIGN_TO_ME
+    static CREATE_TAG_FORWARD_IT = Trans._leng.CREATE_TAG.FORWARD_IT
+    static CREATE_TAG_SUBMIT = Trans._leng.CREATE_TAG.SUBMIT
+
+    static RISK_ASSESSMENT_TITLE = Trans._leng.RISK_ASSESSMENT.TITLE
+    static RISK_ASSESSMENT_RISK_LEVEL = Trans._leng.RISK_ASSESSMENT.RISK_LEVEL
+    static RISK_ASSESSMENT_LOW = Trans._leng.RISK_ASSESSMENT.LOW
+    static RISK_ASSESSMENT_HIGH = Trans._leng.RISK_ASSESSMENT.HIGH
+
+    static LOCATION_TITLE = Trans._leng.LOCATION.TITLE
+    static CLASSIFICATION_TITLE = Trans._leng.CLASSIFICATION.TITLE
+    static DESC_TITLE = Trans._leng.DESCRIPTION.TITLE
+
+    static TASK_TODO_TITLE = Trans._leng.TASK_TODO.TITLE
+    static TASK_TODO_ASSIGN_ON_ME = Trans._leng.TASK_TODO.ASSIGN_ON_ME
+    static TASK_TODO_ASSIGN_BY_ME = Trans._leng.TASK_TODO.ASSIGN_BY_ME
+    static TASK_TODO_SEE_CHAT = Trans._leng.TASK_TODO.SEE_CHAT
+
+    static TAG_DETAILS_BTN_RESOLVE = Trans._leng.TAG_DETAILS.BTN_RESOLVE
+    static TAG_DETAILS_RISK_LEVEL = Trans._leng.TAG_DETAILS.RISK_LEVEL
+    static TAG_DETAILS_REPORTED_BY = Trans._leng.TAG_DETAILS.REPORTED_BY
+    static TAG_DETAILS_ASSIGNED_TO = Trans._leng.TAG_DETAILS.ASSIGNED_TO
+    static TAG_DETAILS_CLASSIFICATION = Trans._leng.TAG_DETAILS.CLASSIFICATION
+    static TAG_DETAILS_LOCATION = Trans._leng.TAG_DETAILS.LOCATION
+    static TAG_DETAILS_DESC = Trans._leng.TAG_DETAILS.DESC
+
+    static OPEN_TAG_TITLE = Trans._leng.OPEN_TAG.TITLE
+
+    static ASSIGN_TAG_SEARCH_LABEL = Trans._leng.ASSIGN_TAG.SEARCH_LABEL
+    static ASSIGN_TAG_BTN_BACK = Trans._leng.ASSIGN_TAG.BTN_BACK
+    static ASSIGN_TAG_BTN_NEXT = Trans._leng.ASSIGN_TAG.BTN_NEXT
+    static ASSIGN_TAG_BTN_SUBMIT = Trans._leng.ASSIGN_TAG.BTN_SUBMIT
+    static ASSIGN_TAG_LBL_INFO = Trans._leng.ASSIGN_TAG.LBL_INFO
+    static ASSIGN_TAG_LBL_ASSIGN = Trans._leng.ASSIGN_TAG.LBL_ASSIGN
+    static ASSIGN_TAG_LBL_INSTRUCTIONS = Trans._leng.ASSIGN_TAG.LBL_INSTRUCTIONS
+
+    static ACHIEVEMENTS_TITLE = Trans._leng.ACHIEVEMENTS.TITLE
+    static ACHIEVEMENTS_ACCOMPLISHMENT = Trans._leng.ACHIEVEMENTS.ACCOMPLISHMENT
+    static ACHIEVEMENTS_CATEGORY = Trans._leng.ACHIEVEMENTS.CATEGORY
+    static ACHIEVEMENTS_SCORE = Trans._leng.ACHIEVEMENTS.SCORE
+    static ACHIEVEMENTS_RANK = Trans._leng.ACHIEVEMENTS.RANK
+    static ACHIEVEMENTS_TASK_DONE = Trans._leng.ACHIEVEMENTS.TASK_DONE
+    static ACHIEVEMENTS_TASK_REPORTED = Trans._leng.ACHIEVEMENTS.TASK_REPORTED
+
+    static LOGOUT = Trans._leng.LOGOUT
+
+}
+
+export default Trans

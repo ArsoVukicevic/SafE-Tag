@@ -1,0 +1,88 @@
+GET http://{{host}}/getUsers
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+GET http://{{host}}/insertUserView
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+GET http://{{host}}/getFactories
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+GET http://{{host}}/getClassificationAndItemTree
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+GET http://{{host}}/getFactory
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}
+
+###
+GET http://{{host}}/getAudit
+Cache-Control: no-cache
+Content-Type: application/json
+
+> {%
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+
+client.test("Api response status", function() {
+  client.assert(response.body.status === 1,"Response finished with error");
+});
+%}

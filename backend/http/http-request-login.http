@@ -1,0 +1,21 @@
+POST http://{{host}}/api/login
+Cache-Control: no-cache
+Content-Type: application/json
+
+{
+    "email": "mb-firstmanager@gmail.com",
+    "pass": "test"
+}
+
+> {%
+
+client.test("Server status", function() {
+  client.assert(response.status === 200, "Response status is not 200");
+});
+client.test("Login Response Body", function() {
+  client.assert(response.body.status === 1, "Login error status is -1");
+  client.assert(response.body.hasOwnProperty("status"), "Response has not status property");
+  client.assert(response.body.data.hasOwnProperty("token") != null, "Token not exist");
+  client.global.set("token", response.body.data.token);
+});
+%}

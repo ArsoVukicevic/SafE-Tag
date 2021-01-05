@@ -1,0 +1,4 @@
+/node_modules
+/build/fonts
+/build/*.js
+/build/*.svg

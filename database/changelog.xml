@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+            http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.8.xsd">
+
+    <!-- The relative to changelog file property breaks everything. I think that the path has to be relative to classpath -->
+    <!--<includeAll relativeToChangelogFile="true" path="sql"/>-->
+	
+	<include file="sql/changelog-1-ddl.sql"/> 
+    <include file="sql/changelog-2-data.sql"/> 
+	
+	<include file="sql/changelog-3-dummy-data.sql"/>
+	
+
+</databaseChangeLog>
